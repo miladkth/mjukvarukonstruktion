@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: system-monitor
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: system-monitor
+  template:
+    metadata:
+      labels:
+        app: system-monitor
+    spec:
+      containers:
+      - name: system-monitor
+        image: system-monitor
+        imagePullPolicy: Never

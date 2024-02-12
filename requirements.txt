@@ -1,0 +1,12 @@
+blinker==1.7.0
+click==8.1.7
+Flask==3.0.1
+GPUtil==1.4.0
+itsdangerous==2.1.2
+Jinja2==3.1.3
+MarkupSafe==2.1.4
+psutil==5.9.8
+Werkzeug==3.0.1
+nvidia-ml-py3
+pymongo[srv]==4.0.1
+schedule==1.1.0
